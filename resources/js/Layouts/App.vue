@@ -1,18 +1,25 @@
 <template>
-  <div class="container mt-4">
-    <h1>Laravel + Vue SPA</h1>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/produk">Produk</router-link> |
-    <router-link to="/biodata">Biodata</router-link>
-    <hr>
-    <router-view></router-view>
+  <div class="min-h-screen bg-gray-100">
+    <header class="bg-white shadow">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-700">Testing SPA</h1>
+        <nav class="space-x-4">
+          <router-link to="/" class="text-gray-700 hover:text-blue-600 font-medium">Home</router-link>
+          <router-link to="/biodata" class="text-gray-700 hover:text-blue-600 font-medium">Biodata</router-link>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+      <router-view />
+    </main>
   </div>
 </template>
 
 <script setup>
-// Tidak perlu apa-apa di sini untuk sekarang
+// Kosongkan atau isi sesuai kebutuhan
 </script>
 
-<style>
-/* Tambahkan styling opsional di sini */
+<style scoped>
+/* Tambahan jika perlu, namun sudah cukup dengan Tailwind */
 </style>
