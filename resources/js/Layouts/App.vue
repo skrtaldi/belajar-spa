@@ -5,7 +5,6 @@
         <h1 class="text-2xl font-bold text-blue-700">Testing SPA</h1>
         <nav class="space-x-4">
           <router-link to="/" class="text-gray-700 hover:text-blue-600 font-medium">Home</router-link>
-          <router-link to="/biodata" class="text-gray-700 hover:text-blue-600 font-medium">Biodata</router-link>
         </nav>
       </div>
     </header>
